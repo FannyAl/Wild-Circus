@@ -1,0 +1,61 @@
+# Wild-Circus
+Code source du site Wild Circus by the Peacocks Company
+
+/*Section*/
+
+h1
+{
+	font-size: 150%;
+	border-bottom: 1px solid white;
+}
+
+#photos img
+{
+	display: -moz-inline-stack; 
+	display: inline-block;
+	*display: inline;
+    zoom: 1;
+	width: 240px;
+	height: 100px;
+}
+
+video
+{
+	display: block;
+	margin: 0 auto;
+}
+
+#youtube
+{
+	display: block;
+	margin: auto;
+	
+}
+
+
+/* Responsive Design */
+
+
+@media all and (max-width: 1200px)
+{
+	#photos
+	{
+		display: none;
+	}
+	
+	video
+	{
+		display: block;
+		margin-left: 0;
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media all and (max-width: 600px)
+{
+	#photos
+	{
+		display: none;
+	}
+}
